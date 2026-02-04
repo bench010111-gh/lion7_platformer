@@ -31,7 +31,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     void FixedUpdate()
     {
         // ÁÂ¿ì ÀÌµ¿
-        pRig2D.velocity = new Vector2(direction.x * Speed, pRig2D.velocity.y);
+        pRig2D.linearVelocity = new Vector2(direction.x * Speed, pRig2D.linearVelocity.y);
     }
 
     void Update()
